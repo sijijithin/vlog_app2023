@@ -1,0 +1,66 @@
+<div class="create ">
+    <img src="https://media1.giphy.com/media/ZFu5rBL7T85HpI1YmT/source.gif" alt="">
+
+    <form  #updatecontentform="ngForm" class="create_form p-2 rounded">
+
+        <div class="form-floating mb-2 rounded">
+            <input name="id" #id="ngModel" [(ngModel)]="content.id" type="text" class="form-control" id="floatingInput0"
+                placeholder="id" required>
+            <label for="floatingInput0">Id</label>
+        </div>
+        <!-- invalid id -->
+        <div *ngIf="id.invalid && id.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid id
+        </div>
+        <div class="form-floating mb-3">
+            <input name="name" #author="ngModel" [(ngModel)]="content.author" type="text" class="form-control"
+                id="floatingInput" placeholder="Enter Name" required pattern="[a-zA-Z]*">
+            <label for="floatingInput">Enter Name</label>
+        </div>
+        <!-- validity checking name -->
+        <div *ngIf="author.invalid && author.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid name
+        </div>
+        <div class="form-floating mb-3">
+            <input name="categories" #categories="ngModel" [(ngModel)]="content.categories" type="text" class="form-control"
+                id="floatingInput1" placeholder="Category" required pattern="[a-zA-Z]*">
+            <label for="floatingInput1">Category</label>
+        </div>
+        <!-- validity checking category -->
+        <div *ngIf="categories.invalid && categories.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid category
+        </div>
+        <div class="form-floating mb-3">
+            <input name="title" #title="ngModel" [(ngModel)]="content.title" type="text" class="form-control"
+                id="floatingInput2" placeholder="Title" required>
+            <label for="floatingInput2">Title</label>
+        </div>
+        <!-- validity checking title -->
+        <div *ngIf="title.invalid && title.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid title
+        </div>
+        <div class="form-floating mb-3">
+            <input name="content" #contents="ngModel" [(ngModel)]="content.content" type="text" class="form-control"
+                id="floatingInput3" placeholder="Content" required>
+            <label for="floatingInput3">Content</label>
+        </div>
+        <!-- validity checking content -->
+        <div *ngIf="contents.invalid && contents.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid content
+        </div>
+        <div class="form-floating mb-3">
+            <input name="photo" #photo="ngModel" [(ngModel)]="content.photo" type="text" class="form-control"
+                id="floatingInput4" placeholder="image url" required>
+            <label for="floatingInput4">Photo</label>
+        </div>
+        <!-- validity checking photo -->
+        <div *ngIf="photo.invalid && photo.touched" class="mb-3 text-danger fs-5">
+            * Please enter a valid url
+        </div>
+        <div class="text-center tap">
+            <button (click)="updatecontent(content.id,content)"  [disabled]="updatecontentform.invalid"  class="btn mt-3 ms-3" >Update</button>
+            <a routerLink="" class="btn mt-3 ms-3"> Close </a>
+
+        </div>
+    </form>
+</div>

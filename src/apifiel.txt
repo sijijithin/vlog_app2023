@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      
+      "author": "Hazel",
+        "categories":"sports",
+      "title": "GOLF:
+      Aditi closes with birdies on last two to make cut",
+     "content":"India’s Aditi Ashok produced a birdie-birdie finish in the second round to stay on for weekend action at the KPMG Women’s PGA Championship at Baltusrol here.
+
+       Aditi, who shot 75 in the first round, went back further as she was two-over through 16 holes in the second round with the cut looking likely at three-over or four-over.
+
+       Aditi, who is playing her 24th Major, birdied the two closing Par-5s and ensured action over the weekend. The cut ultimately fell at five-over and Aditi at three-over is tied-41st.
+
+       Overall 79 players made the cut.",
+      "photo": "https://www.bing.com/th?id=OVFT.YcaItxn1NsXkVPM9ZAKnky&pid=News&w=234&h=132&c=14&rs=2&qlt=90&dpr=1.1",
+
+    },
+    {
+      
+      "author": "Edwin",
+       "categories":"sports",
+      "title": "India Skipper Rohit Sharma Reacts As ICC Announces 2023 ODI World Cup Schedule",
+     "content":"Team India's all-format skipper Rohit Sharma reacted to ICC announcing the official schedule for upcoming ODI World Cup 2023 in India. The senior batter said he expects the mega intercontinental tournament in the country to be a highly-competitive affair since "the game has become faster". Rohit Sharma-led team India will aim to end their ICC title drought, win their third title and the second at home when they kickstart their campaign against five-time winners Australia in Chennai on October 8.
+
+     "This World Cup is going to be very competitive as the game has become faster and teams are playing more positively than ever before," Rohit was quoted as saying in an ICC release.
+
+     "All this augurs well for fans worldwide, promising them many thrilling moments. We look forward to preparing well and being at our best this October-November," he added.",
+      "photo": "https://imagevars.gulfnews.com/2019/06/06/India-s-Rohit-Sharma_16b2cfa4978_large.jpg",
+
+    },
+    {
+      
+      "author": "Freddy",
+       "categories":"sports",
+      "title": "SAFF Championship: Sunil Chhetri Works His Magic But India Draw 1-1 With Kuwait",
+     "content":"SAFF Championship: Sunil Chhetri Works His Magic But India Draw 1-1 With KuwaitSAFF Championship: India will play Lebanon in the semifinal while Kuwait will take on either Bangladesh or Maldives.Press Trust of IndiaUpdated: June 27, 2023 10:06 PM ISTRead Time:2 min
+         SAFF Championship: Sunil Chhetri Works His Magic But India Draw 1-1 With Kuwait
+         Sunil Chhetri in action for India in SAFF Championship© AIFF
+        Sunil Chhetri worked his magic but India had to split points with Kuwait after an acrimonious 1-1 draw in their last group match in the SAFF Championship on Tuesday. Chhetri had put India on the road to victory with an injury-time strike in the first half but an own goal by Anwar Ali in the added time of the second half spoiled the home side's march. This was also the first goal India conceded in nine matches. The result meant that India and Kuwait ended up on seven points but the latter topped Group A on better goal average. India will play Lebanon in the semifinal while Kuwait will take on either Bangladesh or Maldives. Already qualified for the semifinal, both India and Kuwait pressed forward
+        from the whistle, giving some entertaining moments",
+      "photo": "https://c.ndtvimg.com/2023-06/64do45l_gsgs_625x300_27_June_23.jpeg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
+
+    },
+     {
+      
+      "author": "swetha",
+      "categories":"cinema",
+      "title": "Debutant director’s Malayalam short film ‘Ek Kahani – A Dubai Story’ wins hearts on YouTube",
+      "content":"Ek Kahani – A Dubai Story, a Malayalam short film with a simple story about trust and friendship, is winning hearts on YouTube. Directed by debutant Anoop Varghese, the 25-minute film about non-resident
+      Indians in Dubai and their little big dreams, has struck a chord with viewers.Anoop, who has also written the story, says the film is partially based on a real-life incident. Speaking on phone from Dubai, where he works as a resource manager at Siemens, he says that it is a common practice among friends in the United Arab Emirates to pool in money to buy lottery tickets with big prizes. “In my film, one of the friends stays true to their bond although the other friend does not reciprocate. I wanted to celebrate the goodness of humanity through that true friend.
+       I feel the celebration of goodness has made the short popular.",
+      "photo": "https://th-i.thgim.com/public/incoming/2ms9wz/article67018833.ece/alternates/FREE_1200/Poster%20of%20Anoop%27s%20film.jpg",
+
+    },
+     {
+      
+      "author": "Meelu ",
+      "categories":"Tech",
+      "title": "Months after its last raise, Realtime Robotics drums up another $9.5 million",
+      "content":"Realtime Robotics has been raising funding at a steady clip since announcing a two-pronged $31 million Series A back in 2021. This week’s $9.5 million announcement is a fast follow-up to last September’s $14.4 million raise. The new funds from Shinhan GIB and Kyobo Life Insurance push the Boston-based firm’s to date raise to north of $54 million. The funding is all part of what’s been effectively one prolonged Series A.
+       This time last year, Realtime unveiled RapidPlan, software that helps manufacturers deploy robots in an industrial setting. The system provides a variety of different features, including simulation, control, task management and programming. The company says 
+       the software can save deployers “weeks to months” of automation setup.",
+      "photo": "https://media.medicalbag.com/images/2018/11/27/robotdoctorg983942394_1509302.jpg",
+
+    },
+
+  ]
+
+}

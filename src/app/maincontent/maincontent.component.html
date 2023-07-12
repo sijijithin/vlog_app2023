@@ -1,0 +1,107 @@
+<!-- header -->
+<header>
+    <app-header></app-header>
+</header>
+
+<div class="container">
+    <!-- loading spinner -->
+
+    <div *ngIf="isLoading" class="d-flex justify-content-center mt-5">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="ms-5 fs-3">Loading...</span>
+        </div>
+    </div>
+
+    <!-- errormsg -->
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div *ngIf="errorMsg" class="alert alert-danger mt-5" role="alert">
+                {{errorMsg}}
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+
+    </div>
+    <div class="row mt-5">
+
+        <!-- side bar -->
+        <div class="col-lg-4 col-md-4 col-sm-12 sidebar">
+            <!-- search button  -->
+            <nav class="navbar pt-5 ">
+                <div class="container">
+                    <form class="d-flex" role="search">
+                        <input name='searchterm' [(ngModel)]="searchTerm" class="form-control me-2" type="text"
+                            placeholder="Search" aria-label="Search">
+                        <a class="btn btn-outline-success" type="submit">Search</a>
+                    </form>
+                </div>
+            </nav>
+
+            <h1 class="ps-3 pt-3 pe-3 pb-2"> All Category</h1>
+            <hr>
+            <hr>
+            <ul type="disc" class="fs-5 ps-5">
+                <a  (click)="filterposts('all')">
+                    <li class="pb-3"> All Posts </li>
+                </a>
+                <a (click)="filterposts('sports')">
+                    <li class="pb-3"> Sports </li>
+                </a>
+                <a (click)="filterposts('Science')">
+                    <li class="pb-3">Science</li>
+                </a>
+                <a  (click)="filterposts('cinema')">
+                    <li class="pb-3">Cinemas</li>
+                </a>
+            </ul>
+
+        </div>
+<!--  not found -->
+<div *ngIf="(allcontents|filter:searchTerm:'title').length==0 &&!isLoading" 
+class="d-flex align-items-center justify-content-center fs-3 text-danger fw-bolder text-bg-light p-3">
+    Search not found !!!
+</div>
+        <!-- card design -->
+
+        <div *ngIf="!isLoading" class="col-lg-8 col-md-8 col-sm-12 mt-3 ">
+            <div class="card p-2 m-3" *ngFor="let content of filteredpost | filter:searchTerm: 'title' "
+                style="max-width: 800px;min-height:300px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <a routerLink=""> <img [src]="content.photo" class="img-fluid rounded p-3"
+                                style="height:260px; width: 500px;" alt="..."> </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title fs-4">{{content.title}}</h3>
+                            <h5 class="card-title mt-3">Created by: {{content.author}}</h5>
+                            <a routerLink="view/{{content.id}}">
+                                <p class="card-text fs-5 mt-5">{{content.content.slice(0,80)}}...</p>
+                            </a>
+                            <div class="action">
+                                <button (click)="deletecontent(content.id)"
+                                    class="=btn btn-success fs-5 mt-3 p-2 text-primary"
+                                    style="background-color: rgb(31, 12, 93);">
+                                    <i class="fa-solid fa-trash fa-beat"></i> Delete</button>
+                                &nbsp;
+                                <a routerLink="/update/{{content.id}}" class="btn btn-danger  mb-1">
+                                    <i class="fa-solid fa-pen text-light"></i>
+                                    Update
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- card design ends -->
+
+
+
+
+    </div>
+</div>

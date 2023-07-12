@@ -1,0 +1,41 @@
+.create h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.create {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://th.bing.com/th/id/OIP.DhFDNQiEjF-4ySgO2HFwkAHaEo?pid=ImgDet&rs=1");
+}
+
+.create_form {
+    width: 40%;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 50px;
+    border: 2px solid;
+    background-color: rgb(255, 249, 241, .3);
+}
+
+.create_form input {
+    background-color: rgb(238, 234, 234, .8);
+}
+
+.btn {
+    background-color: rgb(54, 9, 48);
+    color: rgb(219, 240, 22);
+    font-size: 20px;
+    border: 2px solid yellow;
+
+}
+.tap{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ flex-wrap: wrap;
+}

@@ -1,0 +1,16 @@
+<div class="containerr">
+    <div class="login">
+<!-- from bootstrap -->
+<div class="form-floating mb-3 text-center">
+    <input  [(ngModel)]="loginObj.username" type="text" class="form-control" id="floatingUsername" placeholder="Username">
+    <label for="floatingPassword">username</label>
+  </div>
+  <div class="form-floating">
+    <input   [(ngModel)]="loginObj.password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
+  <button class="btn  mt-5 loginbtn" type="submit" (click)="Onlogin()" >Login</button>
+ 
+<p class="text-center mt-3 fs-5"> New users please <a routerLink="/register">Register</a></p> 
+    </div>
+</div>

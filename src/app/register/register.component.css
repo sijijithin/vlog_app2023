@@ -1,0 +1,24 @@
+.containr{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://th.bing.com/th/id/R.72394da9de42f6f31887e7ca44d53072?rik=zU7OrVzBklT17Q&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fWallpaper-HD-color-images.jpg&ehk=exsXlHndG0XP%2brcsp%2bfS7iEvBUczhuax%2b%2fUIvZCLGTU%3d&risl=&pid=ImgRaw&r=0");
+}
+.register{
+    width: 50%;
+    border: 8px solid rgb(110, 66, 12);
+    border-radius: 10px;
+    padding: 50px;
+    background-color:rgb(202, 126, 32,.8) ;
+   
+}
+.regbtn{
+   margin-left: 40%;
+   background-color:rgba(64, 38, 7, 0.8) ;
+   color:white;
+}
+input{
+    background-color:rgba(233, 166, 86, 0.8) ;
+}

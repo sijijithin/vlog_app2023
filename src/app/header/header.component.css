@@ -1,0 +1,38 @@
+header{
+    height:55vh;
+    background-image: url("https://webisoda.in/wp-content/uploads/2017/11/Shaddes-of-life-webisoda.jpg");
+    background-position: center;
+    background-clip: content-box;
+}
+a{
+    color: yellow;
+}
+/*  to change the color of navbar toggle icon */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(228, 228, 15)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+ .navbar-toggler {
+    border-color: rgb(228, 228, 15);
+  } 
+
+.addpost{ 
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    border: 2px solid yellow;
+    font-size: 25px;
+    background-color: rgb(178, 128, 128,.5);
+
+}.post{
+  margin-top: 17%;
+  margin-left: 25%;
+}
+.post a{
+  text-decoration: none;
+ 
+}

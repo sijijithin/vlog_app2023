@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+
+}
+.sidebar{
+    background-color: rgb(216, 216, 186);
+}
+.card-title{
+    font-size: 20px;
+}
+p{
+    line-height: 28px;
+}
+.sidebar ul a{
+    cursor: pointer;
+    color:blue;
+    text-decoration: none;
+}

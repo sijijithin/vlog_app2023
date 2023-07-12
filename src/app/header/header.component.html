@@ -1,0 +1,31 @@
+<header>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
+          
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-warning"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                   
+                    <li class="nav-item">
+                        <a *ngIf="!isuserloggedin()" class="btn  text-warning me-3 fs-5" routerLink="login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a *ngIf="isuserloggedin()" class="btn  text-warning me-3 fs-5" (click)="logout()" > Log Out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn  text-warning me-3 fs-5" routerLink="register">Register</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="post">
+    <a   *ngIf="isuserloggedin()" routerLink="/add">  <p class="addpost">  Add new post</p></a>
+
+  <a   *ngIf="!isuserloggedin()" routerLink="/login">  <p class="addpost"> Login to Add new post</p></a>
+
+</div></header>
